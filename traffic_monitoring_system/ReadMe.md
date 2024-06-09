@@ -26,7 +26,7 @@ Performance metrics such as confusion matrices, AUC, Precision, Recall, and F1 s
 ## Ensemble Model Building
 
 The top three performing models are selected to build an ensemble model using techniques like voting or averaging.
-
+![](reference_images/essemble_model.png)
 
 ## Results Comparison
 
