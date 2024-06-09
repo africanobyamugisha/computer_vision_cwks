@@ -4,36 +4,7 @@
 
 This project aims to develop a traffic monitoring system using traditional machine learning techniques. The system detects motorcycles and trucks in a video feed and utilizes machine learning models for classification.
 
-
-## Introduction
-
-The project involves designing and formulating a traffic monitoring tool based on traditional machine learning techniques such as KNN, SVM, Decision Trees, and Random Forest.
-
-## Dataset Acquisition
-
-### 📹 Video Source
-
-The video source for the project is `data/traffic_output.avi`.
-
-## Data Preprocessing and Annotation
-
-### ✍️ Image Annotation
-
-Frames from the video are extracted and annotated to label motorcycles and trucks for training purposes using CVAT and LabelImg
-
-## Feature Extraction
-
-### 📊 Identified Features
-
-- Color histograms
-- Edges
-- SIFT (Scale-Invariant Feature Transform)
-- SURF (Speeded-Up Robust Features)
-- Pixel values
-
-## Model Training
-
-### 🤖 Traditional Machine Learning Models
+### 🤖 Models Trained:-
 
 - K-Nearest Neighbors (KNN)
 - Support Vector Machine (SVM)
@@ -61,13 +32,13 @@ The top three performing models are selected to build an ensemble model using te
 
 The performance of the ensemble model is compared with individual models to assess improvement.
 
-Model            | AUC      | Precision | Recall  | F1 Score |
-------------------------------------------------------------
-Ensemble         | NaN      | 0.888     | 0.907   | 0.880    |
-Decision Tree    | 0.650    | 0.866     | 0.857   | 0.860    |
-Random Forest    | 0.894    | 0.864     | 0.899   | 0.853    |
-SVM              | 0.920    | 0.803     | 0.896   | 0.847    |
-KNN              | 0.468    | 0.799     | 0.817   | 0.808    |
+|Model            | AUC      | Precision | Recall  | F1 Score|
+|-----------------|----------|-----------|---------|---------|
+|Ensemble         | NaN      | 0.888     | 0.907   | 0.880   |
+|Decision Tree    | 0.650    | 0.866     | 0.857   | 0.860   |
+|Random Forest    | 0.894    | 0.864     | 0.899   | 0.853   |
+|SVM              | 0.920    | 0.803     | 0.896   | 0.847   |
+|KNN              | 0.468    | 0.799     | 0.817   | 0.808   |
 
 ![Confusion Matrix](reference_images/confusion_matrix_with_essemble.png)
 
