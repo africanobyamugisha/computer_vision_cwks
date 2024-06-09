@@ -11,6 +11,3 @@ Sinusoid Hough Space
 4. The Hough transform; Writing a function that applies the Hough Transform to an edge magnitude image
 
 Feel free to browse through the code, your feedback and contributions are highly appreciated.
-
-3. 🌐 Connect with me on [LinkedIn](https://www.linkedin.com/in/africanobyamugisha), [GitHub](https://github.com/africanobyamugisha), and [Website](https://africanobyamugisha.netlify.app/)👁️✨
-
